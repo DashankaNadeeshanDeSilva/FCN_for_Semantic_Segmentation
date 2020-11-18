@@ -85,7 +85,6 @@ class Dataset_Prep(Dataset):
 
 
 def show_batch(batch):
-
     img_batch = batch['X']
     img_batch[:, 0, ...].add_(means[0])
     img_batch[:, 1, ...].add_(means[1])
