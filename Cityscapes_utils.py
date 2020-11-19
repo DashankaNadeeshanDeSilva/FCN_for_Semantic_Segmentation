@@ -58,14 +58,16 @@ def parse_label():
         for city in os.listdir(label_dir):
             city_dir = os.path.join(label_dir, city)
             city_idx_dir = os.path.join(index_dir, city)
-            data_dir = city_dir.replace("gtFine", "leftImg8bit")
+            data_dir = city_dir
+
             if not os.path.exists(city_idx_dir):
                 os.makedirs(city_idx_dir)
             for filename in os.listdir(city_dir):
                 if 'color' not in filename:
                     continue
                 lab_name = os.path.join(city_idx_dir, filename)
-                img_name = filename.split("gtFine")[0] + "leftImg8bit.png"
+                img_name = filename
+                print("haha")
                 img_name = os.path.join(data_dir, img_name)
                 f.write("{},{}.npy\n".format(img_name, lab_name))
 
@@ -93,7 +95,7 @@ def parse_label():
                 print("Finish %s" % (filename))
 
 
-'''debug function'''
+'''check for correctness of data'''
 
 
 def imshow(img, title=None):
