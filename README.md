@@ -15,11 +15,11 @@ This script achieves nearly 95% accuracy with GPU for CityScapes dataset.
 **How to run**
 1. Data setup:
   Download CityScapes dataset from the original website. Then create a directory named "CityScapes", and put data into the directory
-  Now run below to prepare and preprocess the data for the model
+  Now run below to prepare and preprocess the data for the model.
   ```
   python3 Cityscapes_utils.py
   ```
- 2. Then run Train.py script to run the training (one can change the hyperparameters inside the script)
+ 2. Then run Train.py script to run the training (one can change the hyperparameters inside the script).
  ```
  python3 train.py
  ```
