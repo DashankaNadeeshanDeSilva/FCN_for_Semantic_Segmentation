@@ -9,8 +9,6 @@ The model is based on CVPR '15 best paper honorable mentioned "Fully Convolution
 3. Pandas
 4. Scipy (=1.1.0)
 
-install them with ```pip3 install -r pre-requirements.txt```
-
 This script achieves nearly 95% accuracy with GPU for CityScapes dataset.
 
 
