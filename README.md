@@ -3,7 +3,7 @@ Fully Convolutional Neural Network based Semantic Segmentation for CityScape Dat
 The model is based on CVPR '15 best paper honorable mentioned "Fully Convolutional Networks for Semantic Segmentation"
 
 **Pre-requirements**
-
+These dependencies can be installed using pip or conda (or anyother depending on your system)
 1. Pytorch (with Torchvision)
 2. matplotlib
 3. Pandas
