@@ -1,6 +1,6 @@
 # FCN_for_Semantic_Segmentation
 Fully Convolutional Neural Network based Semantic Segmentation for CityScape Dateset with Pytorch implementation
-The model is based on CVPR '15 best paper honorable mentioned "Fully Convolutional Networks for Semantic Segmentation"
+The model is based on CVPR '15 best paper honorable mentioned [Fully Convolutional Networks for Semantic Segmentation](https://arxiv.org/pdf/1411.4038.pdf)
 
 **Pre-requirements**
 These dependencies can be installed using pip or conda (or anyother depending on your system)
