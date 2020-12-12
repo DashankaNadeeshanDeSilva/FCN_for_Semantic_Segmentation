@@ -9,7 +9,7 @@ These dependencies can be installed using pip or conda (or anyother depending on
 3. Pandas
 4. Scipy (=1.1.0)
 
-This script achieves nearly 95% accuracy with GPU for CityScapes dataset.
+This script achieves nearly 95% accuracy with GPU. However, this can vary depending on intialization and the huyperparameter selection.
 
 
 **How to run**
