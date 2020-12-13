@@ -7,9 +7,9 @@ These dependencies can be installed using pip or conda (or anyother depending on
 1. Pytorch (with Torchvision)
 2. matplotlib
 3. Pandas
-4. Scipy (=1.1.0)
+4. Scipy (=v1.1.0)
 
-This script achieves nearly 95% accuracy with GPU. However, this can vary depending on intialization and the huyperparameter selection.
+This script achieves nearly 95% accuracy with GPU. However, this can vary depending on intialization and the hyperparameter selection.
 
 
 **How to run**
